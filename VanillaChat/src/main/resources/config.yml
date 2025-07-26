@@ -1,0 +1,20 @@
+local-chat: 100
+global-chat-prefix: "!"
+spy-chat-prefix: "#D2CF4AНаблюдение &7»"
+
+symbols:
+  local: "&f[&aL&f]"
+  global: "&f[&6G&f]"
+
+tags:
+  - "@all"
+  - "@here"
+  - "@online"
+
+chat:
+  user: "{symbol} #54daf4{username} &7» &f{message}"
+  admin: "{symbol} #D64E4E{username} &7» &f{message}"
+
+messages:
+  mention_notification: "&e* &fВас упомянули, загляните в чат &e*"
+  nobody-heard-message: "&fТак случилось, что поблизости &cнет &fигроков и тебя &cникто &fне услышал"

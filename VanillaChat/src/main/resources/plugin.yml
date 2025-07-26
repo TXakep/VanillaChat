@@ -1,0 +1,10 @@
+name: VanillaChat
+version: 1.0
+main: org.truexakep.vanillaChat.VanillaChat
+api-version: 1.21
+folia-supported: true
+
+permissions:
+  vanillachat.spy:
+    description: Позволяет видеть локальный чат вне радиуса действия
+    default: op
